@@ -1,0 +1,32 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.hero-card {
+   display: flex;
+   flex-direction: column; 
+   border: solid 2px brown;
+   width: 12vw;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-card-content {
+    max-width: 100%;
+    text-align: center;
+    background-color: #404C64;
+    color: #F3EED9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.favorite-btn {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
